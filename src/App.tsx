@@ -80,24 +80,24 @@ function App() {
       </div>
       <div className='section'>
         <div className='content media'>
-          <a href="https://github.com/lucasdellasala/" target="_blank">
+          <a href="https://github.com/lucasdellasala/" target="_blank" rel="noreferrer">
             <div className='social-media-container'>
-              <img src={githubLogo} className="social-media-logo" alt="profile pic" />
+              <img src={githubLogo} className="social-media-logo" alt="profile pic"/>
             </div>
           </a>
-          <a href="https://www.instagram.com/dellasalalucas" target="_blank">
+          <a href="https://www.instagram.com/dellasalalucas" target="_blank" rel="noreferrer">
             <div className='social-media-container'>
-              <img src={instagramLogo} className="social-media-logo" alt="profile pic" />
+              <img src={instagramLogo} className="social-media-logo" alt="profile pic"/>
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/lucasdellasala/?locale=en_US" target="_blank">
+          <a href="https://www.linkedin.com/in/lucasdellasala/?locale=en_US" target="_blank" rel="noreferrer">
             <div className='social-media-container'>
-              <img src={linkedinLogo} className="social-media-logo" alt="profile pic" />
+              <img src={linkedinLogo} className="social-media-logo" alt="profile pic"/>
             </div>
           </a>
-          <a href="https://www.youtube.com/channel/UCoXdnmepeg11cX_MheeS10w" target="_blank">
+          <a href="https://www.youtube.com/channel/UCoXdnmepeg11cX_MheeS10w" target="_blank" rel="noreferrer">
             <div className='social-media-container'>
-              <img src={youtubeLogo} className="social-media-logo" alt="profile pic" />
+              <img src={youtubeLogo} className="social-media-logo" alt="profile pic"/>
             </div>
           </a>
         </div>
