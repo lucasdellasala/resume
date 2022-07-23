@@ -37,11 +37,6 @@ function App() {
             <p>{`Implementation of frontend apps with React (Hooks) and GraphQL and creation of microservices in Node & Koa with Typescript. Teaching and code review for the Software Engineers team and for Partners. Functional analysis and leadership of meetings (daily, retro, backlog refinement, planning).`}</p>
           </div>
           <div className='section-item'>
-            <h3>First Party Apps Tech Lead</h3>
-            <p>VTEX | 7/2021 - 10/2021</p>
-            <p>{`Implementation of frontend apps with React (Hooks) and GraphQL and creation of microservices in Node & Koa with Typescript. Teaching and code review for the Software Engineers team and for Partners. Functional analysis and leadership of meetings (daily, retro, backlog refinement, planning).`}</p>
-          </div>
-          <div className='section-item'>
             <h3>First Party Apps Engineer</h3>
             <p>VTEX | 11/2020 - 7/2021</p>
             <p>{`Implementation of frontend apps with React (Hooks) and GraphQL with Typescript. Creation of microservices in Node & Koa with Typescript. In charge of support for partners and customers.`}</p>
