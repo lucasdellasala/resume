@@ -1,0 +1,3 @@
+export const messages = {
+    aboutMeParagraph: "I'm a full-stack web developer with experience in UI implementations with React and microservices with GraphQL and NodeJs (with Typescript). I currently work at MODO, the Argentine bank wallet, where I am part of the Person To Merchant Online (PTMO) team. My tasks are to develop and participate in decision-making related to the roadmap of the product that we implement and understand the product of other teams with which we interact."
+}

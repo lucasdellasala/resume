@@ -1,0 +1,1 @@
+export const URL_PROFILE_PIC = 'https://avatars.githubusercontent.com/u/55720621?v=4';
