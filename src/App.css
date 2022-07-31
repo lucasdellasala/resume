@@ -20,6 +20,10 @@
   flex-direction: column;
 }
 
+.hero {
+  margin: 2em 0 0 0;
+}
+
 .content {
   width: 100%;
   align-items: flex-start;
@@ -64,23 +68,28 @@
 }
 
 .section-item {
+  width: 100%;
   margin: 0.5em 0 0 0;
-  padding: 0;
+  padding: 0.5em 1em;
+  background-color: #031eb6;
+  border-radius: 20px;
+  box-shadow: 10px 10px black;
 }
 
 .first-child {
-  margin: 0 0.3em 0 0;
+  margin: 0.5em 0.1em 0 0;
 }
 
 .middle-child {
-  margin: 0 0.3em 0 0.3em;
+  margin: 0.5em 0.1em 0 0.1em;
 }
 
 .last-child {
-  margin: 0 0 0 0.3em;
+  margin: 0.5em 0 0 0.1em;
 }
 
 .section-item h3 {
+  text-align: left;
   color: gold;
   margin: 0;
   padding: 0;
@@ -111,14 +120,14 @@
     width: 80%;
   }
   .first-child {
-    margin: 0;
+    margin: 1em 0 0 0;
   }
   
   .middle-child {
-    margin: 0;
+    margin:  1em 0 0 0;
   }
   
   .last-child {
-    margin: 0;
+    margin:  1em 0 0 0;
   }
 }
