@@ -30,6 +30,7 @@
 }
 
 .education {
+  width: 100%;
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -70,22 +71,28 @@
 .section-item {
   width: 100%;
   margin: 0.5em 0 0 0;
-  padding: 0.5em 1em;
   background-color: #031eb6;
   border-radius: 20px;
-  box-shadow: 10px 10px black;
+  box-shadow: 10px 10px rgba(0,0,0,0.6);
+}
+
+.section-item-child {
+  padding: 0.5em 1em;
 }
 
 .first-child {
   margin: 0.5em 0.1em 0 0;
+  width: 33%;
 }
 
 .middle-child {
   margin: 0.5em 0.1em 0 0.1em;
+  width: 33%;
 }
 
 .last-child {
   margin: 0.5em 0 0 0.1em;
+  width: 33%;
 }
 
 .section-item h3 {
@@ -115,19 +122,23 @@
 @media (max-width: 965px) {
   .education {
     flex-direction: column;
+    justify-content: center;
   }
   .section {
     width: 80%;
   }
   .first-child {
+    width: 100%;
     margin: 1em 0 0 0;
   }
   
   .middle-child {
+    width: 100%;
     margin:  1em 0 0 0;
   }
   
   .last-child {
+    width: 100%;
     margin:  1em 0 0 0;
   }
 }

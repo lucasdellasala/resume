@@ -60,7 +60,7 @@ export const messages = {
                 detail: 'In progress, 2018 - Present📚'
             },
             {
-                title: 'Full Stack Development Bootcamp',
+                title: 'Full Stack Dev Bootcamp',
                 info: 'Acámica',
                 detail: '08/2019 - 06/2020✅'
             },
