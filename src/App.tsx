@@ -1,4 +1,3 @@
-import React from 'react';
 import { messages } from './messages';
 import Hero from './components/Hero';
 import Section from './components/Section';

@@ -1,13 +1,13 @@
 .App {
+  background-color: #FEFF01;
   text-align: center;
-  background-color: #011796;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .section {
@@ -48,19 +48,19 @@
   height: 30vmin;
   pointer-events: none;
   border-radius: 50%;
-  border: 3px solid gold;
+  border: 3px solid #FF1D5C;
 }
 
 .section h1 {
   margin: 1em 0 0 0;
   padding: 0;
-  color: gold;
+  color: #FF1D5C;
 }
 
 .section h2 {
   margin: 0.5em 0 0 0;
   padding: 0;
-  color: gold;
+  color: #FF1D5C;
 }
 
 .section p {
@@ -71,9 +71,10 @@
 .section-item {
   width: 100%;
   margin: 0.5em 0 0 0;
-  background-color: #031eb6;
+  background-color: #FEFF01;
+  border: 3px solid #FF1D5C;
   border-radius: 20px;
-  box-shadow: 10px 10px rgba(0,0,0,0.6);
+  box-shadow: 8px 8px #00fff7;
 }
 
 .section-item-child {
@@ -97,7 +98,7 @@
 
 .section-item h3 {
   text-align: left;
-  color: gold;
+  color: #FF1D5C;
   margin: 0;
   padding: 0;
 }
@@ -117,6 +118,22 @@
 .social-media-logo {
   height: 10vmin;
   pointer-events: none;
+}
+
+.grow-10 {
+  transition: all .2s ease-in-out;
+}
+
+.grow-10:hover {
+  transform: scale(1.10);
+}
+
+.grow-25 {
+  transition: all .2s ease-in-out;
+}
+
+.grow-25:hover {
+  transform: scale(1.25);
 }
 
 @media (max-width: 965px) {

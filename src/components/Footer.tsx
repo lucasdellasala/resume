@@ -8,7 +8,7 @@ function Footer(props: { content: any }) {
                 {list.map((item: any) => {
                     return (
                         <a href={item.url} target="_blank" rel="noreferrer">
-                            <div className='social-media-container'>
+                            <div className='social-media-container grow-25'>
                                 <img src={item.img} className="social-media-logo" alt={item.alt} />
                             </div>
                         </a>
