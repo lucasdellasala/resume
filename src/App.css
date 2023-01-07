@@ -1,5 +1,5 @@
 .App {
-  background-color: #FEFF01;
+  background-color: #fafa78;
   text-align: center;
   min-height: 100vh;
   display: flex;
@@ -71,7 +71,7 @@
 .section-item {
   width: 100%;
   margin: 0.5em 0 0 0;
-  background-color: #FEFF01;
+  background-color: #fafa78;
   border: 3px solid #FF1D5C;
   border-radius: 20px;
   box-shadow: 8px 8px #00fff7;
