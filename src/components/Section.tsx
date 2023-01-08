@@ -1,22 +1,24 @@
+import { useTranslation } from 'react-i18next';
 import Card from './Card';
 
 function Section(props: { content: any, type: string }) {
-    const { content: { title, items }, type } = props;
+    const {t} = useTranslation("global");
+    const { content: { items }, type } = props;
     return <div className='section'>
-        <h2>{title}</h2>
+        <h2>{t(`${type}.title`)}</h2>
         <div className={`content ${type}`}>
             {items.map((item: any, index: number) => {
 
                 if(type==='education'){
                     if(index===0){
-                        return <Card item={item} additionalClassName='first-child'/>
+                        return <Card additionalClassName='first-child' type={type} i={index}/>
                     } else if(index===(items.length-1)){
-                        return <Card item={item} additionalClassName='last-child'/>
+                        return <Card additionalClassName='last-child' type={type} i={index}/>
                     } else {
-                        return <Card item={item} additionalClassName='middle-child'/>
+                        return <Card additionalClassName='middle-child' type={type} i={index}/>
                     }
                 }
-                return <Card item={item}/>
+                return <Card type={type} i={index}/>
             })}
         </div>
     </div>

@@ -1,0 +1,87 @@
+{
+    "hero": {
+        "img": "https://avatars.githubusercontent.com/u/55720621?v=4",
+        "title": "Lucas Della Sala",
+        "subtitle": "Desarrollador full stack",
+        "detail": "Soy un desarrollador full stack con experiencia en implementaciones UI con React y microservicios con GraphQL y NodeJs (con Typescript). Actualmente trabajo en MODO, la billetera argentina de los bancos, donde formo parte del equipo de Pagos a comercios Online (PTMO). Mis tareas son desarrollar y participar de la toma de desiciones relacionadas al roadmap del producto que implementamos y entender el producto de otros equipos con los que interactuamos."
+    },
+    "work": {
+        "title": "Experiencia",
+        "items": [
+            {
+                "title": "Ingeniero Backend",
+                "info": "MODO | 10/2021 - Presente",
+                "detail": "Implementación de microservicios (APIs REST) en Typescriot con Express, Nest, MongoDB y PostgreSQL. Monitoreo y alertas con Datadog y Pino. Desarrollo 'Trunk based' con Github Actions."
+            },
+            {
+                "title": "Ingeniero Full stack",
+                "info": "Freelance con Embedx (Chile) | 10/2021 - 06/2022",
+                "detail": "Integración entre APIs de Embedx (Insurance as a Service) con VTEX IO (Ecommerce). Desarrollo con React (Hooks), GraphQL y Node con Typescript. QA y soporte."
+            },
+            {
+                "title": "Lider Técnico First Party Apps",
+                "info": "VTEX | 7/2021 - 10/2021",
+                "detail": "Implementación de apps frontend con React (Hooks) y GraphQL, y creación de microservicios en Node y Koa con Typescript. Capacitaciones y revisión de códigos del equipo de Ingenieros de Software y para Partners. Análisis funcional y liderazgo de reuniones (daily, retro, backlog refinement, planning)."
+            },
+            {
+                "title": "Ingeniero First Party Apps",
+                "info": "VTEX | 11/2020 - 7/2021",
+                "detail": "Implementación de apps frontend con React (Hooks) y GraphQL, y creación de microservicios en Node y Koa con Typescript. A cargo de soporte a Partners y clientes."
+            },
+            {
+                "title": "Desarrollador Full stack",
+                "info": "Freelance con Cultura Buzz (Spain) | 09/2020-10/2020",
+                "detail": "Backend con Node, Express y MongoDB. Frontend con React (Hooks)."
+            },
+            {
+                "title": "Profesor de Química y Física",
+                "info": "Escuelas secundarias públicas (CABA) | 2016 - 2021",
+                "detail": "Hasta cuatro cursos en simultáneo (100 estudiantes). Clases prácticas de laboratorio. Apoyo escolar."
+            }
+        ]
+    },
+    "education": {
+        "title": "Educación",
+        "items": [
+            {
+                "title": "Licenciatura en Ciencias de la Computación",
+                "info": "Universidad de Buenos Aires",
+                "detail": "En curso, 2019 - Presente📚"
+            },
+            {
+                "title": "Licenciatura en Economía",
+                "info": "Universidad de Buenos Aires",
+                "detail": "En curso, 2018 - Presente📚"
+            },
+            {
+                "title": "Curso Desarrollo Full Stack",
+                "info": "Acámica",
+                "detail": "08/2019 - 06/2020✅"
+            }
+        ]
+    },
+    "socialMedia": {
+        "list": [
+            {
+                "img": "https://user-images.githubusercontent.com/55720621/211215552-a38e578b-2375-4eef-aa69-d33a3fbe46d7.png",
+                "url": "https://github.com/lucasdellasala/",
+                "alt": "Logo de Github"
+            },
+            {
+                "img": "https://user-images.githubusercontent.com/55720621/211215553-156d7f7b-cda1-4b73-83ea-7cb0a5c1e0e2.png",
+                "url": "https://www.instagram.com/dellasalalucas",
+                "alt": "Logo de Instagram"
+            },
+            {
+                "img": "https://user-images.githubusercontent.com/55720621/211215554-7aee64ad-5386-4a3f-a95f-9f7a2ae2cb89.png",
+                "url": "https://www.linkedin.com/in/lucasdellasala/?locale=es_ES",
+                "alt": "Logo de Linkedin"
+            },
+            {
+                "img": "https://user-images.githubusercontent.com/55720621/211215555-0459b618-3c87-4461-b0d0-ce4c8542e667.png",
+                "url": "https://www.youtube.com/channel/UCoXdnmepeg11cX_MheeS10w",
+                "alt": "Logo de Youtube"
+            }
+        ]
+    }
+}
