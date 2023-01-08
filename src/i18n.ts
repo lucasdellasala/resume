@@ -20,12 +20,12 @@ i18n
       escapeValue: false, // not needed for react as it escapes by default
     },
     resources: {
-    en: {
+      en: {
         global: global_en,
-        },
-        es: {
+      },
+      es: {
         global: global_es,
-        },
+      },
     }
   });
 
