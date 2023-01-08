@@ -1,13 +1,16 @@
+import { useTranslation } from 'react-i18next';
+
 function Hero(props: { content: any }){
-    const { title, subtitle, img, detail} = props.content;
+    const {t} = useTranslation("global");
+
     return (
         <div className='section hero'>
             <div className='profile-pic-container'>
-            <img src={img} className="profile-pic" alt="profile pic" />
+            <img src={t("hero.img").toString()} className="profile-pic" alt="profile pic" />
             </div>
-            <h1>{title}</h1>
-            <h2>{subtitle}</h2>
-            <p>{detail}</p>
+            <h1>{t("hero.title")}</h1>
+            <h2>{t("hero.subtitle")}</h2>
+            <p>{t("hero.detail")}</p>
         </div>
     )
 }

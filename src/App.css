@@ -136,7 +136,54 @@
   transform: scale(1.25);
 }
 
+.IntlButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+
+}
+
+.IntlButton {
+  background-color: transparent;
+  border: none;
+  width: 6%;
+  margin-top: 2%;
+}
+
+.unselected {
+  opacity: 0.5;
+}
+
+.flag {
+  min-width: 100%;
+  width: 100%;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 @media (max-width: 965px) {
+
+  .IntlButton {
+    background-color: transparent;
+    border: none;
+    width: 15%;
+    margin: 2% 1%
+  }
+
+  .zoom:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .hero {
+    margin: 0;
+  }
+
   .education {
     flex-direction: column;
     justify-content: center;
@@ -159,3 +206,4 @@
     margin:  1em 0 0 0;
   }
 }
+
