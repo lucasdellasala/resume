@@ -212,7 +212,7 @@ h1, h2, h3 {
 @media (max-width: 965px) {
 
   .App {
-    font-size: calc(14px + 2vmin);
+    font-size: calc(11px + 2vmin);
   }
 
   .IntlButton {
