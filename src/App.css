@@ -1,13 +1,28 @@
+@font-face {
+  font-family: BlenderProBold;
+  src: url(./fonts/Blender-Pro-Bold.ttf);
+}
+
+@font-face {
+  font-family: BlenderProBook;
+  src: url(./fonts/Blender-Pro-Book.ttf);
+}
+
 .App {
-  background-color: #fafa78;
+  background-color: #000000;
   text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+  font-size: calc(3px + 2vmin);
+  font-family: BlenderProBook,sans-serif;
+  color: #fff;
+}
+
+h1, h2, h3 {
+  font-family: BlenderProBold,sans-serif;
 }
 
 .section {
@@ -25,8 +40,11 @@
 }
 
 .content {
-  width: 100%;
   align-items: flex-start;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .education {
@@ -48,19 +66,19 @@
   height: 30vmin;
   pointer-events: none;
   border-radius: 50%;
-  border: 3px solid #FF1D5C;
+  border: 3px solid #FF003C;
 }
 
 .section h1 {
   margin: 1em 0 0 0;
   padding: 0;
-  color: #FF1D5C;
+  color: #FF003C;
 }
 
 .section h2 {
-  margin: 0.5em 0 0 0;
+  margin: 0.5em 0 0.5em 0;
   padding: 0;
-  color: #FF1D5C;
+  color: #FF003C;
 }
 
 .section p {
@@ -69,12 +87,11 @@
 }
 
 .section-item {
-  width: 100%;
-  margin: 0.5em 0 0 0;
-  background-color: #fafa78;
-  border: 3px solid #FF1D5C;
+  background-color: #000000;
+  border: 1px solid #FF003C;
   border-radius: 20px;
-  box-shadow: 8px 8px #00fff7;
+  width: 100%;
+  box-shadow: 8px 8px #04DAF6;
 }
 
 .section-item-child {
@@ -84,32 +101,36 @@
 .first-child {
   margin: 0.5em 0.1em 0 0;
   width: 33%;
+  height: 22vh;
 }
 
 .middle-child {
   margin: 0.5em 0.1em 0 0.1em;
   width: 33%;
+  height: 22vh;
 }
 
 .last-child {
   margin: 0.5em 0 0 0.1em;
   width: 33%;
+  height: 22vh;
 }
 
 .section-item h3 {
   text-align: left;
-  color: #FF1D5C;
-  margin: 0;
+  color: #FF003C;
+  margin: 0.5em 0;
   padding: 0;
 }
 
 .section-item p {
   font-size: 0.8em;
-  margin: 0;
+  margin: 0 0 0.6em 0;
   padding: 0;
 }
 .media {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   margin: 1em 0 3em 0;
@@ -120,12 +141,33 @@
   pointer-events: none;
 }
 
+.githubLogoImg {
+  width: 60px;
+  height: 60px;
+}
+
+.instagramLogoImg {
+  width: 50px;
+  height: 50px;
+}
+
+.linkedinLogoImg {
+  width: 45px;
+  height: 45px;
+}
+
+.youtubeLogoImg {
+  width: 70px;
+  height: 70px;
+}
+
 .grow-10 {
   transition: all .2s ease-in-out;
 }
 
 .grow-10:hover {
-  transform: scale(1.10);
+  transform: scale(1.01);
+  box-shadow: 8px 8px #04DAF6;
 }
 
 .grow-25 {
@@ -188,22 +230,27 @@
     flex-direction: column;
     justify-content: center;
   }
+
   .section {
     width: 80%;
   }
+
   .first-child {
     width: 100%;
     margin: 1em 0 0 0;
+    height: auto;
   }
   
   .middle-child {
     width: 100%;
     margin:  1em 0 0 0;
+    height: auto;
   }
   
   .last-child {
     width: 100%;
     margin:  1em 0 0 0;
+    height: auto;
   }
 }
 
