@@ -9,9 +9,14 @@
         "title": "Experiencia",
         "items": [
             {
+                "title": "Desarrollador Backend Sr",
+                "info": "VALTECH | 08/2023 - Presente",
+                "detail": "Construcción de ecommerces con Algolia, CommerceTools, APIs REST en Node con Typescript."
+            },
+            {
                 "title": "Ingeniero Backend",
-                "info": "MODO | 10/2021 - Presente",
-                "detail": "Implementación de microservicios (APIs REST) en Typescriot con Express, Nest, MongoDB y PostgreSQL. Monitoreo y alertas con Datadog y Pino. Desarrollo 'Trunk based' con Github Actions."
+                "info": "MODO | 10/2021 - 07/2023",
+                "detail": "Implementación de microservicios (APIs REST) en Typescript con Express, Nest, MongoDB y PostgreSQL. Monitoreo y alertas con Datadog y Pino. Desarrollo 'Trunk based' con Github Actions."
             },
             {
                 "title": "Ingeniero Full stack",
