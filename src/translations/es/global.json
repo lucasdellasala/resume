@@ -3,7 +3,7 @@
         "img": "https://avatars.githubusercontent.com/u/55720621?v=4",
         "title": "Lucas Della Sala",
         "subtitle": "Desarrollador full stack",
-        "detail": "Soy un desarrollador full stack con experiencia en implementaciones UI con React y microservicios con GraphQL y NodeJs (con Typescript). Actualmente trabajo en VALTECH, donde formo parte del equipo de Composable Commerce. Mis tareas son desarrollar y participar de la toma de desiciones relacionadas al roadmap del producto que implementamos y entender el producto de otros equipos con los que interactuamos."
+        "detail": "Soy un desarrollador full stack con experiencia en implementaciones UI utilizando React y microservicios con GraphQL y Node.js (con TypeScript). Actualmente, trabajo en VALTECH, donde formo parte del equipo de Composable Commerce. Mis responsabilidades incluyen el desarrollo, la toma de decisiones estratégicas relacionadas con el roadmap del producto, y la colaboración con otros equipos para comprender y mejorar sus productos. Además, realizo numerosos trabajos freelance, lo que me permite ampliar mis habilidades y enfrentar nuevos desafíos en proyectos diversos."
     },
     "work": {
         "title": "Experiencia",
@@ -11,7 +11,12 @@
             {
                 "title": "Desarrollador Backend Sr",
                 "info": "VALTECH | 08/2023 - Presente",
-                "detail": "Construcción de ecommerces con Algolia, CommerceTools, APIs REST en Node con Typescript."
+                "detail": "Construcción de ecommerces con Algolia, CommerceTools, APIs REST en Node con Typescript.",
+                "children": {
+                        "title": "Proyecto: MARS - M&M's",
+                        "link": "https://www.mms.com/",
+                        "detail": "Implementación de frontend en NextJS, backend con microservicios, funciones lambda y backend for frontend."
+                    } 
             },
             {
                 "title": "Ingeniero Backend",
@@ -71,11 +76,6 @@
                 "img": "https://user-images.githubusercontent.com/55720621/211453011-70b145ff-90ed-4b23-add3-e5c37c38d454.png",
                 "url": "https://github.com/lucasdellasala/",
                 "alt": "Logo de Github"
-            },
-            {
-                "img": "https://user-images.githubusercontent.com/55720621/211453006-f2388937-5386-4c9c-9af8-73070757f913.png",
-                "url": "https://www.instagram.com/dellasalalucas",
-                "alt": "Logo de Instagram"
             },
             {
                 "img": "https://user-images.githubusercontent.com/55720621/211453009-c816d717-b500-455c-957f-199bc4871bb3.png",

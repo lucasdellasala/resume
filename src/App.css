@@ -209,6 +209,11 @@ h1, h2, h3 {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+a {
+  text-decoration: none;
+  color: #FF003C;
+}
+
 @media (max-width: 965px) {
 
   .App {
